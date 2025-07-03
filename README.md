@@ -13,19 +13,18 @@ This project aims to improve digital accessibility by fine-tuning a Text-to-Spee
 ## 📁 Project Structure
 
 ```bash
-├── data/               # Preprocessed audio and phoneme alignments
-├── models/             # Trained HMM or hybrid TTS models
-├── notebooks/          # Jupyter notebooks for training and evaluation
-├── hmm_tts.py          # Core training logic using HMMs
-├── README.md           # Project description (this file)
-└── report/             # Final report, analysis, and figures
+sound-clustering-formative/
+├── .git/                               # Git repository folder
+├── Formative_assignment_glen(1).ipynb  # Jupyter notebook (964KB)
+└── README.md                           # README file (1.8KB)
+```
 
 
 🚀 Getting Started
 
     Clone the repo
 
-git clone https://github.com/yourusername/hmm-tts-africa.git
+git clone https://github.com/yaralexie18/sound-custering-formative.git
 cd hmm-tts-africa
 
 Install dependencies
@@ -34,17 +33,10 @@ pip install -r requirements.txt
 
 Run training
 
-````bash
     python hmm_tts.py --train data/train.json
-````
 
-📊 Evaluation Metrics
 
-    Spectral distortion
 
-    Duration accuracy
-
-    Subjective listening tests (optional)
 
 🌍 Real-World Impact
 
